@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 RUN apk update
-RUN apk add nodejs curl bash gnupg xvfb
+RUN apk add nodejs curl bash gnupg
 
 RUN touch $HOME/.profile
 
